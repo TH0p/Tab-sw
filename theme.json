@@ -1,0 +1,24 @@
+{
+  "id": "tab-to-next-tab",
+  "name": "Tab To Next Tab",
+  "version": "1.0.0",
+  "description": "Makes the Tab key switch to the next open tab in Zen Browser.",
+  "author": "Maxwell",
+  "homepage": "https://github.com/",
+  "readme": "README.md",
+  "fork": [
+    "zen"
+  ],
+  "style": {
+    "chrome": "sine/chrome.css"
+  },
+  "supportsUnload": true,
+  "scripts": {
+    "sine/tab-to-next-tab.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ],
+      "loadOrder": 100
+    }
+  }
+}
