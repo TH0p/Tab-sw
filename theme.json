@@ -1,0 +1,9 @@
+{
+  "name": "Tab To Next Tab",
+  "description": "Makes the Tab key switch to the next open tab in Zen Browser.",
+  "author": "Maxwell",
+  "version": "1.0.0",
+  "scripts": [
+    "index.js"
+  ]
+}
